@@ -10,10 +10,10 @@ function App() {
    const [Std, setStd] = useState('');
    const [Division, setDivision] = useState('');
    const [Rolenumber, setRolenumber] = useState('');
-   const [id, setId] = useState(null); // Initialize id as null
+   const [id, setId] = useState(null); 
 
    useEffect(() => {
-      console.log('Initial Data:', studentData); // Debugging
+      console.log('Initial Data:', studentData); 
       setData(studentData);
    }, []);
 
